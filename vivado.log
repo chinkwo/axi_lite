@@ -1,0 +1,23 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Tue Apr 10 16:12:45 2018
+# Process ID: 2300
+# Current directory: F:/FPGA_SOC/axi_lite/axi_lite
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9732 F:\FPGA_SOC\axi_lite\axi_lite\axi_lite.xpr
+# Log file: F:/FPGA_SOC/axi_lite/axi_lite/vivado.log
+# Journal file: F:/FPGA_SOC/axi_lite/axi_lite\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project F:/FPGA_SOC/axi_lite/axi_lite/axi_lite.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'f:/FPGA_SOC/axi_lite/axi_lite/def_ipcore/vga_module'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'f:/FPGA_SOC/axi_lite/axi_lite/def_ipcore/par2per'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'f:/FPGA_SOC/axi_lite/axi_lite/def_ipcore/encode'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'f:/FPGA_SOC/axi_lite/axi_lite/def_ipcore/m_axi_lite/m_axi_lite_1.0'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/vivado/Vivado/2017.4/data/ip'.
+open_project: Time (s): cpu = 00:00:26 ; elapsed = 00:00:13 . Memory (MB): peak = 918.031 ; gain = 221.359
+update_compile_order -fileset sources_1

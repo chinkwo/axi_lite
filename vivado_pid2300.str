@@ -1,0 +1,88 @@
+/*
+
+Xilinx Vivado v2017.4 (64-bit) [Major: 2017, Minor: 4]
+SW Build: 2086221 on Fri Dec 15 20:55:39 MST 2017
+IP Build: 2085800 on Fri Dec 15 22:25:07 MST 2017
+
+Process ID: 2300
+License: Customer
+
+Current time: 	Tue Apr 10 16:13:00 CST 2018
+Time zone: 	China Standard Time (Asia/Shanghai)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 1536x864
+Screen resolution (DPI): 96
+Available screens: 2
+Available disk space: 34 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	D:/vivado/Vivado/2017.4/tps/win64/jre
+JVM executable location: 	D:/vivado/Vivado/2017.4/tps/win64/jre/bin/java.exe
+
+User name: 	Chinkwo Yu
+User home directory: C:/Users/Chinkwo Yu
+User working directory: F:/FPGA_SOC/axi_lite/axi_lite
+User country: 	CN
+User language: 	zh
+User locale: 	zh_CN
+
+RDI_BASEROOT: D:/vivado/Vivado
+HDI_APPROOT: D:/vivado/Vivado/2017.4
+RDI_DATADIR: D:/vivado/Vivado/2017.4/data
+RDI_BINDIR: D:/vivado/Vivado/2017.4/bin
+
+Vivado preferences file location: C:/Users/Chinkwo Yu/AppData/Roaming/Xilinx/Vivado/2017.4/vivado.xml
+Vivado preferences directory: C:/Users/Chinkwo Yu/AppData/Roaming/Xilinx/Vivado/2017.4/
+Vivado layouts directory: C:/Users/Chinkwo Yu/AppData/Roaming/Xilinx/Vivado/2017.4/layouts
+PlanAhead jar file location: 	D:/vivado/Vivado/2017.4/lib/classes/planAhead.jar
+Vivado log file location: 	F:/FPGA_SOC/axi_lite/axi_lite/vivado.log
+Vivado journal file location: 	F:/FPGA_SOC/axi_lite/axi_lite/vivado.jou
+Engine tmp dir: 	F:/FPGA_SOC/axi_lite/axi_lite/.Xil/Vivado-2300-DESKTOP-JPATCP2
+
+GUI allocated memory:	189 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 554 MB
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 47 MB (+46641kb) [00:00:06]
+// [Engine Memory]: 460 MB (+330750kb) [00:00:06]
+// Opening Vivado Project: F:\FPGA_SOC\axi_lite\axi_lite\axi_lite.xpr. Version: Vivado v2017.4 
+// bs (cj):  Open Project : addNotify
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project F:/FPGA_SOC/axi_lite/axi_lite/axi_lite.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// TclEventType: FILE_SET_CHANGE
+// [GUI Memory]: 58 MB (+9562kb) [00:00:11]
+// [Engine Memory]: 554 MB (+74379kb) [00:00:11]
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 554 MB. GUI used memory: 33 MB. Current time: 4/10/18 4:13:02 PM CST
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 678 MB (+100636kb) [00:00:15]
+// [GUI Memory]: 69 MB (+8012kb) [00:00:18]
+// Tcl Message: open_project F:/FPGA_SOC/axi_lite/axi_lite/axi_lite.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository 'f:/FPGA_SOC/axi_lite/axi_lite/def_ipcore/vga_module'. INFO: [IP_Flow 19-1700] Loaded user IP repository 'f:/FPGA_SOC/axi_lite/axi_lite/def_ipcore/par2per'. INFO: [IP_Flow 19-1700] Loaded user IP repository 'f:/FPGA_SOC/axi_lite/axi_lite/def_ipcore/encode'. INFO: [IP_Flow 19-1700] Loaded user IP repository 'f:/FPGA_SOC/axi_lite/axi_lite/def_ipcore/m_axi_lite/m_axi_lite_1.0'. INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/vivado/Vivado/2017.4/data/ip'. 
+// Tcl Message: open_project: Time (s): cpu = 00:00:26 ; elapsed = 00:00:13 . Memory (MB): peak = 918.031 ; gain = 221.359 
+// Project name: axi_lite; location: F:/FPGA_SOC/axi_lite/axi_lite; part: xc7z020clg400-2
+dismissDialog("Open Project"); // bs (cj)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 117 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, axi_lite_wrapper (axi_lite_wrapper.v)]", 1); // B (D, cj)

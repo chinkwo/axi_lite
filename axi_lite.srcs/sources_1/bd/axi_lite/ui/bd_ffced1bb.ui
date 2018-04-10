@@ -1,0 +1,72 @@
+{
+   ExpandedHierarchyInLayout: "",
+   guistr: "# # String gsaved with Nlview 6.6.11  2017-06-12 bk=1.3860 VDI=40 GEI=35 GUI=JA:1.6
+#  -string -flagsOSRD
+preplace port b_p -pg 1 -y -100 -defaultsOSRD
+preplace port clk_n -pg 1 -y 90 -defaultsOSRD
+preplace port g_n -pg 1 -y -210 -defaultsOSRD
+preplace port clk_p -pg 1 -y 70 -defaultsOSRD
+preplace port g_p -pg 1 -y -230 -defaultsOSRD
+preplace port FIXED_IO -pg 1 -y -600 -defaultsOSRD
+preplace port r_n -pg 1 -y -380 -defaultsOSRD
+preplace port b_n -pg 1 -y -60 -defaultsOSRD
+preplace port r_p -pg 1 -y -400 -defaultsOSRD
+preplace port sclk -pg 1 -y -140 -defaultsOSRD
+preplace portBus hdmi_en -pg 1 -y 170 -defaultsOSRD
+preplace inst rst_ps7_0_50M -pg 1 -lvl 2 -y -790 -defaultsOSRD
+preplace inst vga_module_0 -pg 1 -lvl 3 -y -300 -defaultsOSRD
+preplace inst xlconstant_0 -pg 1 -lvl 3 -y -540 -defaultsOSRD
+preplace inst xlconstant_1 -pg 1 -lvl 4 -y 110 -defaultsOSRD
+preplace inst xlconstant_2 -pg 1 -lvl 5 -y 170 -defaultsOSRD
+preplace inst encode_0 -pg 1 -lvl 4 -y -420 -defaultsOSRD
+preplace inst encode_1 -pg 1 -lvl 4 -y -230 -defaultsOSRD
+preplace inst encode_2 -pg 1 -lvl 4 -y -30 -defaultsOSRD
+preplace inst ila_0 -pg 1 -lvl 2 -y -370 -defaultsOSRD
+preplace inst m_axi_lite_0 -pg 1 -lvl 2 -y -540 -defaultsOSRD
+preplace inst ps7_0_axi_periph -pg 1 -lvl 3 -y -750 -defaultsOSRD
+preplace inst par2ser_0 -pg 1 -lvl 5 -y -400 -defaultsOSRD
+preplace inst clk_wiz_0 -pg 1 -lvl 2 -y -130 -defaultsOSRD
+preplace inst par2ser_1 -pg 1 -lvl 5 -y -250 -defaultsOSRD
+preplace inst par2ser_2 -pg 1 -lvl 5 -y -100 -defaultsOSRD
+preplace inst par2ser_3 -pg 1 -lvl 5 -y 50 -defaultsOSRD
+preplace inst processing_system7_0 -pg 1 -lvl 1 -y -480 -defaultsOSRD -resize 400 292
+preplace netloc xlconstant_1_dout 1 4 1 1590
+preplace netloc encode_0_dout 1 4 1 1600
+preplace netloc xlconstant_2_dout 1 5 1 N
+preplace netloc par2ser_3_ser_dat_p 1 5 1 1840
+preplace netloc encode_1_dout 1 4 1 1570
+preplace netloc clk_wiz_0_locked 1 2 3 860 -590 N -590 1590
+preplace netloc processing_system7_0_M_AXI_GP0 1 1 2 460J -880 850J
+preplace netloc sclk_1 1 0 2 N -140 480J
+preplace netloc vga_module_0_v_sync 1 3 1 1330
+preplace netloc processing_system7_0_FCLK_RESET0_N 1 1 1 490
+preplace netloc par2ser_2_ser_dat_n 1 5 1 1840
+preplace netloc rst_ps7_0_50M_interconnect_aresetn 1 2 1 N
+preplace netloc vga_module_0_b 1 3 1 1320
+preplace netloc xlconstant_0_dout 1 3 1 1380
+preplace netloc processing_system7_0_FIXED_IO 1 1 5 480 -610 N -610 N -610 N -610 1840
+preplace netloc par2ser_0_ser_dat_n 1 5 1 1840
+preplace netloc par2ser_2_ser_dat_p 1 5 1 1830
+preplace netloc encode_2_dout 1 4 1 1600
+preplace netloc m_axi_lite_0_rgb_data 1 2 1 850
+preplace netloc rst_ps7_0_50M_peripheral_aresetn 1 1 2 500 -690 850
+preplace netloc clk_wiz_0_clk_out1 1 2 3 870 -410 1370 -130 1610
+preplace netloc clk_wiz_0_clk_out2 1 2 3 N -110 1340J -520 1580J
+preplace netloc processing_system7_0_FCLK_CLK0 1 0 3 20 -310 470 -900 870
+preplace netloc par2ser_0_ser_dat_p 1 5 1 1840
+preplace netloc par2ser_1_ser_dat_n 1 5 1 1830
+preplace netloc vga_module_0_r 1 3 1 1360
+preplace netloc vga_module_0_pixel_de 1 3 1 1390
+preplace netloc ps7_0_axi_periph_M00_AXI 1 1 3 510 -630 NJ -630 1390
+preplace netloc vga_module_0_h_sync 1 3 1 1350
+preplace netloc par2ser_1_ser_dat_p 1 5 1 1840
+preplace netloc par2ser_3_ser_dat_n 1 5 1 1830
+preplace netloc vga_module_0_g 1 3 1 1360
+levelinfo -pg 1 0 240 680 1190 1480 1720 1860 -top -1050 -bot 1080
+",
+}
+{
+   da_axi4_cnt: "5",
+   da_clkrst_cnt: "5",
+   da_ps7_cnt: "1",
+}

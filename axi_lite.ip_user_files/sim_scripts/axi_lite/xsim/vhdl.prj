@@ -1,0 +1,4 @@
+vhdl xil_defaultlib  \
+"../../../../axi_lite.srcs/sources_1/bd/axi_lite/ip/axi_lite_rst_ps7_0_50M_1/sim/axi_lite_rst_ps7_0_50M_1.vhd" \
+
+nosort
